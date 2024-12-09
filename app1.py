@@ -1,3 +1,6 @@
+import warnings
+warnings.filterwarnings("ignore", category=SyntaxWarning)
+
 import streamlit as st
 import pickle
 import pandas as pd
