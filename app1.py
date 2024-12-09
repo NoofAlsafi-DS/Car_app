@@ -93,7 +93,7 @@ elif page == "Dashboard":
     Designed for automotive enthusiasts, analysts, and decision-makers, it combines key metrics and visualizations to reveal patterns across different makes, models, and years.
     """)
     # Add an image of the Tableau dashboard
-    st.image("/Users/noofas/Desktop/Car_App/dash.png", caption="Snapshot of Tableau Dashboard", use_column_width=True)
+    st.image("dash.png", caption="Snapshot of Tableau Dashboard", use_column_width=True)
     
     # Provide a link to the live Tableau dashboard
     tableau_url = 'https://public.tableau.com/app/profile/noof.as/viz/AutoInsightsDashboard/Dashboard2'
@@ -109,7 +109,7 @@ elif page == "Model Development":
     - **Model Training**: Trained the model using Orange's visual workflow with classification techniques.
     - **Evaluation**: Evaluated performance metrics like accuracy and F1-score.
     """)
-    st.image("/Users/noofas/Desktop/Car_App/Picture1.png", caption="Orange Data Mining Workflow")
+    st.image("Picture1.png", caption="Orange Data Mining Workflow")
 
 # 4. Fuel Type Prediction Page
 elif page == "Fuel Type Prediction":
